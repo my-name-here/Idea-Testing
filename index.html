@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poem Analysis App</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center header and main content horizontally */
+        }
+
+        h1 {
+            text-align: center; /* Center the header text */
+            margin-bottom: 20px;
+        }
+
+        .main-container {
+            display: flex;
+            width: 90%; /* Adjust width as needed */
+            max-width: 1200px; /* Maximum width of the container */
+            margin: 20px auto; /* Center the main container on the page */
+            padding: 20px;
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
+        }
+
+        .options-box, .poem-box, .info-box {
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin: 10px; /* Add some margin between boxes */
+        }
+
+        .options-box {
+            width: 25%; /* Adjust as needed */
+            min-width: 200px; /* Minimum width for options box */
+        }
+
+        .poem-box {
+            flex-grow: 1; /* Let poem box take up available space */
+            white-space: pre-wrap; /* Preserve line breaks and spaces in poem */
+            font-family: monospace; /* Optional: Use monospace font for poem for consistent spacing */
+        }
+
+        .info-box {
+            width: 25%; /* Adjust as needed */
+            min-width: 200px; /* Minimum width for info box */
+        }
+
+        /* Basic styling for placeholder text */
+        .placeholder-text {
+            color: #888;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Poem Analysis App</h1>
+
+    <div class="main-container">
+        <div class="options-box">
+            <h2>Options</h2>
+            <p class="placeholder-text">Analysis Options will go here.</p>
+            <p class="placeholder-text">e.g., Rhyme Scheme, Word Frequency</p>
+        </div>
+
+        <div class="poem-box">
+            <h2>To a Wreath of Snow</h2>
+            <h3>By Emily Brontë</h3>
+            <pre>
+O transient voyager of heaven!
+ ⁠ ⁠ ⁠ O silent sign of winter skies!
+What adverse wind thy sail has driven
+ ⁠ ⁠ ⁠ To dungeons where a prisoner lies?
+
+Methinks the hands that shut the sun
+ ⁠ ⁠ ⁠ ⁠So sternly from this morning's brow
+Might still their rebel task have done
+ ⁠⁠ ⁠ ⁠ And checked a thing so frail as thou.
+
+They would have done it had they known
+ ⁠ ⁠ ⁠ ⁠The talisman that dwelt in thee,
+For all the suns that ever shone
+ ⁠ ⁠ ⁠ ⁠Have never been so kind to me!
+
+For many a week, and many a day
+ ⁠⁠ ⁠ ⁠ My heart was weighed with sinking gloom
+When morning rose in mourning grey
+ ⁠⁠ ⁠ ⁠ And faintly lit my prison room
+
+But angel like, when I awoke,
+ ⁠⁠ ⁠ ⁠ Thy silvery form, so soft and fair
+Shining through darkness, sweetly spoke
+ ⁠⁠ ⁠ ⁠ Of cloudy skies and mountains bare;
+
+The dearest to a mountaineer
+ ⁠⁠ ⁠ ⁠ Who, all life long has loved the snow
+That crowned his native summits drear,
+ ⁠ ⁠ ⁠ ⁠Better, than greenest plains below.
+
+And voiceless, soulless, messenger
+ ⁠ ⁠ ⁠ ⁠Thy presence waked a thrilling tone
+That comforts me while thou art here
+ ⁠ ⁠ ⁠ ⁠And will sustain when thou art gone
+            </pre>
+        </div>
+
+        <div class="info-box">
+            <h2>Analysis Info</h2>
+            <p class="placeholder-text">Poem Analysis Results will appear here.</p>
+            <p class="placeholder-text">e.g., Rhyme Scheme: AABB, Keywords: snow, winter</p>
+        </div>
+    </div>
+
+</body>
+</html>
