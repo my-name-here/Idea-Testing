@@ -53,18 +53,22 @@ h1 {
 /* CSS for word highlighting */
 .winter-highlight-word {
     background-color: transparent; /* Initially no background */
+    
 }
 
 .light-dark-highlight-word {
     background-color: transparent; /* Initially no background */
+    
 }
 
 .winter-highlight-active {
     background-color: lightblue !important; /* Light blue for winter highlight */
+    font-weight: bold;
 }
 
 .light-dark-highlight-active {
     background-color: #FFEF90 !important; /* Light yellow for light/dark highlight */
+    font-weight: bold;
 }
 
 .no-highlight {
